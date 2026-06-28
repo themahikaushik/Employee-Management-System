@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMS Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="sidebar">
+    <h2>💜 EMS</h2>
+    <a href="index.html">🏠 Dashboard</a>
+    <a href="employees.html">👨‍💼 Employees</a>
+    <a href="reports.html">📊 Reports</a>
+    <a href="settings.html">⚙️ Settings</a>
+    <a href="#">🚪 Logout</a>
+</div>
+
+<div class="main">
+
+    <div class="topbar">
+        <div>
+            <h1>Welcome Back, Admin 👋</h1>
+            <p>Here’s what’s happening today</p>
+        </div>
+
+        <div class="top-right">
+            <div class="notification">🔔</div>
+            <div class="avatar">M</div>
+        </div>
+    </div>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Total Employees</h3>
+            <p>24</p>
+        </div>
+
+        <div class="card">
+            <h3>Departments</h3>
+            <p>5</p>
+        </div>
+
+        <div class="card">
+            <h3>Active Today</h3>
+            <p>18</p>
+        </div>
+    </div>
+
+    <!-- Row 1 -->
+    <div class="dashboard-row">
+        <div class="activity-card">
+            <h3>Recent Activity</h3>
+            <p>• New employee added</p>
+            <p>• HR report generated</p>
+            <p>• Admin updated settings</p>
+        </div>
+
+        <div class="chart-card">
+            <h3>Department Stats</h3>
+
+            <div class="bars">
+                <div class="bar bar1"></div>
+                <div class="bar bar2"></div>
+                <div class="bar bar3"></div>
+                <div class="bar bar4"></div>
+            </div>
+
+            <div class="labels">
+                <span>HR</span>
+                <span>IT</span>
+                <span>Sales</span>
+                <span>Admin</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Table niche -->
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Department</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Mahi</td>
+                <td>mahi@gmail.com</td>
+                <td>IT</td>
+                <td>
+                    <button class="edit-btn">Edit</button>
+                    <button class="delete-btn">Delete</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Rahul</td>
+                <td>rahul@gmail.com</td>
+                <td>HR</td>
+                <td>
+                    <button class="edit-btn">Edit</button>
+                    <button class="delete-btn">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
+</body>
+</html>
